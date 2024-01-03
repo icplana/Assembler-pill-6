@@ -16,8 +16,12 @@
  */
 
 // Finish the code of the function
-function exercise01() {}
-
+function exercise01(a = 1, b = 2) {
+    return a * b
+}
+console.log(exercise01())
+console.log(exercise01(5))
+console.log(exercise01(5,5)) 
 // Don’t change the code bellow this line
 import setup01Exercise from "./01-exercise-setup";
 
@@ -28,3 +32,5 @@ if (process.env.NODE_ENV !== "test") {
 }
 
 export default exercise01;
+
+
