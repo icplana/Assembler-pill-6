@@ -24,7 +24,7 @@
  */
 
 // Finish the code of the function
-function exercise05() {}
+function exercise05([ind1, ind2 = "DEFAULT", ind3]) { return ind2 }
 
 // Don’t change the code bellow this line
 import setup05Exercise from "./05-exercise-setup";

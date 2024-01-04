@@ -19,8 +19,17 @@
  */
 
 // Finish the code of the function
-async function exercise18() {}
-
+async function exercise18() {
+try {
+    
+    const response = await fetch('https://jsonplaceholder.typicode.com/users/1')
+    const data = await response.json()
+    displayContents(data)
+} catch (error) {
+    console.error(error)
+}
+}
+// exercise18()
 // Don’t change the code bellow this line
 function displayContents(data) {
     const wrapper = document.querySelector(".ex-wrapper");

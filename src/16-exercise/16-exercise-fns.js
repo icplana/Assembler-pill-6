@@ -9,3 +9,6 @@ export function addTwo(num) {
 export function addThree(num) {
     return 3 + num;
 }
+
+
+// export {addOne, addTwo, addThree} as default

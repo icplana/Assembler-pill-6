@@ -31,13 +31,13 @@ describe("11-exercise", function () {
 
     test("return the found entry in the array", () => {
         const expected1 = exercise11(days, dayToFind);
-        expect(expected1).toBe(dayToFind);
+        expect(expected1).toBe(dayToFind); //"Wednesday"
 
         const expected2 = exercise11(nums, numToFind);
-        expect(expected2).toBe(numToFind);
+        expect(expected2).toBe(numToFind); //5
 
         const expected3 = exercise11(ages, ageToFind);
-        expect(expected3).toBe(ageToFind);
+        expect(expected3).toBe(ageToFind); //25
 
         const expected4 = exercise11(fail, failFind);
         expect(expected4).toBe(undefined);
